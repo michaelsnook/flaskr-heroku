@@ -38,7 +38,7 @@ follow the instructions on [this page](http://flask.pocoo.org/docs/0.10/tutorial
 explain how to create the database from `schema.sql` and how to run `init_db()`
 for the first time.
 
-** Now you're ready to go!**
+**Now you're ready to go!**
 
 While still inside the virtual environment, run the Flask web server
 with `python flaskr.py`.
