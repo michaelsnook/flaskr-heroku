@@ -33,7 +33,12 @@ stages, you should revert your entire repository to that point and refer to this
 section in the README at that point.*
 
 The first time you run the application, you'll need to activate your virtual
-environment and run `pip install -r 'requirements.txt'`.
+environment and run `pip install -r 'requirements.txt'`. Then you'll need to
+follow the instructions on [this page](http://flask.pocoo.org/docs/0.10/tutorial/dbinit/#tutorial-dbinit) which
+explain how to create the database from `schema.sql` and how to run `init_db()`
+for the first time.
 
-Then while the virtual environment is active, you can run the Flask web server
-with `python flaskr/flaskr.py`.
+** Now you're ready to go!**
+
+While still inside the virtual environment, run the Flask web server
+with `python flaskr.py`.
