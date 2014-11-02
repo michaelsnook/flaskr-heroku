@@ -42,3 +42,16 @@ for the first time.
 
 While still inside the virtual environment, run the Flask web server
 with `python flaskr.py`.
+
+3. Running the app on Heroku
+----------------------------
+
+First, head over to this [Heroku Dev Center help page](https://devcenter.heroku.com/articles/getting-started-with-python#set-up).
+Install the Heroku toolbelt, and set up a free Heroku account. If you have
+Homebrew, use `brew install heroku-toolbelt`.
+
+Run `heroku login` and give it your credentials. Verify your keys are working and go to the next step. You can skim over [the next step](https://devcenter.heroku.com/articles/getting-started-with-python#prepare-the-app)
+because you've already created the app.
+
+Now for the moment of truth! Run `heroku create` and `git push heroku master`
+and that really should be it.
