@@ -17,7 +17,7 @@ First, get yourself into the the directory where you want to store this project,
 like `cd ~/projects/`, and clone this repository with `git clone https://github.com/michaelsnook/flaskr-heroku.git`. Then cd into `flaskr-heroku`.
 
 Next, if you haven't run virtualenv.py recently, go ahead and re-clone it with
-`git clone https://github.com/pypa/virtualenv.py /tmp/virtualenv`. Then set up
+`git clone https://github.com/pypa/virtualenv.git /tmp/virtualenv`. Then set up
 this project's virtual environment with `python /tmp/virtualenv/virtualenv.py ./ve`.
 
 When you want to run the app, or use Pip to install new Python packages or run
